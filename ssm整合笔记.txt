@@ -1,0 +1,36 @@
+1.基于maven导入依赖(spring/mybatis/mysql....)
+
+2.建库建表
+
+3.mybatis逆向工程生成代码
+
+4.编写mybatis主配置文件
+
+5.编写spring配置文件
+
+6.编写springmvc配置文件
+
+7.编写web.xml
+
+8.运行测试
+
+前端部分：
+H5 CSS3 JS
+jQuery
+
+Bootstrap
+EasyUI
+LayUI
+
+Vue
+Angular
+React
+
+
+解决乱码：
+1.排查页面、服务端、数据库编码格式是否正确
+
+2.如果是get请求乱码，则修改tomcat 的server.xml配置文件的Connector节点，加入URIEncoding=UTF-8
+
+3.如果是POST请求乱码，此时需要在web.xml中配置Spring 提供的CharacterEncodingFilter过滤器
+
